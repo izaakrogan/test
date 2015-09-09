@@ -1,0 +1,26 @@
+.academy-landing {
+  background-image: url('../assets/fac-sofa-hd-2.jpg');
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1, p {
+		color: $color-three;
+		font-family: 'UG thin';
+	}
+	h1 {
+		font-size: 40px;
+	}
+	p {
+		font-size: 20px;
+		font-family: 'UG med'
+	}
+  button {
+    margin-top: 20px;
+  }
+  .margin {
+    margin-bottom: 15vh;
+  }
+}
